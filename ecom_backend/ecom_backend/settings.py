@@ -41,6 +41,12 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
     'rest_framework.authtoken',
+    'ecom_api',
+    'ecom_api.payment',
+    'ecom_api.category',
+    'ecom_api.user',
+    'ecom_api.order',
+    'ecom_api.product',
 ]
 
 MIDDLEWARE = [
